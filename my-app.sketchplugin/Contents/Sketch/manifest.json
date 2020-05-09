@@ -1,0 +1,22 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "my-command",
+      "identifier": "my-command-identifier",
+      "script": "my-command.js"
+    }
+  ],
+  "menu": {
+    "title": "my-app",
+    "items": [
+      "my-command-identifier"
+    ]
+  },
+  "version": "0.1.0",
+  "name": "my-app",
+  "identifier": "my-app",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml"
+}
